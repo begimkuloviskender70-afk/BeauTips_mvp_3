@@ -1,3 +1,6 @@
+# CPU-only PyTorch для уменьшения размера образа
+--extra-index-url https://download.pytorch.org/whl/cpu
+
 # FastAPI и зависимости
 fastapi==0.115.6
 uvicorn[standard]==0.34.0
@@ -19,14 +22,13 @@ bcrypt==4.0.1
 # Google Gemini AI
 google-genai>=1.0.0
 
-# RAG и векторные операции
+# RAG и векторные операции - CPU-only версии
+torch==2.1.0+cpu
 sentence-transformers==3.1.1
 scikit-learn==1.5.2
 numpy==1.26.4
 
 # Утилиты
 python-dotenv==1.0.1
-
-# Дополнительные зависимости для стабильной работы
 aiofiles==23.2.1
 httpx==0.27.0
