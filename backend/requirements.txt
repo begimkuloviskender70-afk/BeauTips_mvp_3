@@ -16,8 +16,7 @@ passlib[bcrypt]==1.7.4
 python-multipart==0.0.9
 bcrypt==4.0.1
 
-
-# Google Gemini AI (новый SDK)
+# Google Gemini AI
 google-genai>=1.0.0
 
 # RAG и векторные операции
@@ -27,3 +26,7 @@ numpy==1.26.4
 
 # Утилиты
 python-dotenv==1.0.1
+
+# Дополнительные зависимости для стабильной работы
+aiofiles==23.2.1
+httpx==0.27.0
